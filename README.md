@@ -44,6 +44,8 @@ Usuário: http://api.github.com/users/diego3g
 
   - [Bibliotecas](#bibliotecas)
 
+  - [Outras Ferramentas](#outras-ferramentas)
+
 ## Desenvolvimento
 
 ### Configurações Iniciais
@@ -60,7 +62,13 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Bibliotecas
 
+- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
+
 - [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
+
+- [dotenv](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/dotenv.md)
+
+- [Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/ducks.md)
 
 - [eslint-config-airbnb](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-config-airbnb.md)
 
@@ -69,3 +77,33 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [eslint-plugin-jsx-a11y](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-jsx-a11y.md)
 
 - [eslint-plugin-react](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react.md)
+
+- [Font Awesome](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/font-awesome.md)
+
+- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
+
+- [React Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-redux.md)
+
+- [react-map-gl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-map-gl.md)
+
+- [react-modal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-modal.md)
+
+- [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
+
+- [react-toastify](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-toastify.md)
+
+- [reactotron-react-js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-js.md)
+
+- [reactotron-redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux.md)
+
+- [reactotron-redux-saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux-saga.md)
+
+- [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
+
+- [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
+
+### Outras Ferramentas
+
+- [Mapbox](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspectors/mapbox.md)
+
+- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspectors/reactotron.md)
