@@ -38,9 +38,9 @@ Usuário: http://api.github.com/users/diego3g
 
 - [Telas](#telas)
 
-  - [Principal](#main)
+  - [Principal](#principal)
 
-  - [Usuário](#user)
+  - [Novo Usuário](#novo-usuário)
 
 - [Rotas](#rotas)
 
@@ -63,7 +63,9 @@ Usuário: http://api.github.com/users/diego3g
 ![Main](/assets/main.png)
 Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicionado pelo usuário, podendo também, adicionar novos usuários ou remover algum usuário da lista lateral esquerda.
 
-![User](/assets/user.png)
+### Novo Usuário
+
+![New](/assets/new2.png)
 Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
 
 ## Rotas
