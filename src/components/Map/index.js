@@ -55,7 +55,7 @@ class Map extends Component {
       <MapGL
         {...viewportState}
         onClick={this.handleMapClick}
-        mapStyle="mapbox://styles/mapbox/dark-v9"
+        mapStyle="mapbox://styles/mapbox/dark-v10"
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
         onViewportChange={viewport => this.setState({ viewport })}
       >
