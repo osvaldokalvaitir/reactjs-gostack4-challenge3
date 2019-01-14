@@ -1,5 +1,7 @@
 # ReactJS - Desafio 3
 
+Aplicação usando Redux, Redux-Saga, Ducks, React Router, react-map-gl, react-modal, react-toastify, Reactotron e Mapbox.
+
 ## Desafio 3
 
 Configure uma estrutura com create-react-app. Além disso, utilize as ferramentas ESLint, EditorConfig e Prettier durante o desenvolvimento desse projeto.
@@ -34,6 +36,14 @@ Usuário: http://api.github.com/users/diego3g
 
 ## Índice
 
+- [Telas](#telas)
+
+  - [Principal](#main)
+
+  - [Usuário](#user)
+
+- [Rotas](#rotas)
+
 - [Desenvolvimento](#desenvolvimento)
 
   - [Configurações Iniciais](#configurações-iniciais)
@@ -45,6 +55,20 @@ Usuário: http://api.github.com/users/diego3g
   - [Bibliotecas](#bibliotecas)
 
   - [Outras Ferramentas](#outras-ferramentas)
+
+## Telas
+
+### Principal
+
+![Main](/assets/main.png)
+Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicionado pelo usuário, podendo também, adicionar novos usuários ou remover algum usuário da lista lateral esquerda.
+
+![User](/assets/user.png)
+Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
+
+## Rotas
+
+- Busca um usuário do GitHub
 
 ## Desenvolvimento
 
