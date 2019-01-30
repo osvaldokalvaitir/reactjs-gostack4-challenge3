@@ -130,6 +130,6 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Outras Ferramentas
 
-- [Mapbox](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspectors/mapbox.md)
+- [Mapbox](https://github.com/osvaldokalvaitir/projects-settings/blob/master/map/mapbox.md)
 
-- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspectors/reactotron.md)
+- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
