@@ -1,5 +1,15 @@
 # ReactJS - Desafio 3
 
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-desafio3/blob/master/LICENSE)
+![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-desafio3.svg)
+![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-desafio3.svg?color=red)
+![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-desafio3.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-desafio3.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-desafio3.svg)
+![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-desafio3.svg?color=blueviolet)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
 Aplicação usando Redux, Redux-Saga, Ducks, React Router, react-map-gl, react-modal, react-toastify, Reactotron e Mapbox.
 
 ## Desafio 3
