@@ -146,7 +146,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
     - Usuários
 
-      - Busca dados de um usuário do GitHub
+      - Busca dados de um usuário
 
 ### Ferramentas
 
