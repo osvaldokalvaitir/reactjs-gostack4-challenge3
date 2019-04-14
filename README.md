@@ -46,13 +46,11 @@ Usuário: http://api.github.com/users/diego3g
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Principal](#principal)
 
   - [Novo Usuário](#novo-usuário)
-
-- [Rotas](#rotas)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -62,11 +60,15 @@ Usuário: http://api.github.com/users/diego3g
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
+  
+  - [APIs](#apis)
 
-  - [Outras Ferramentas](#outras-ferramentas)
+  - [Ferramentas](#ferramentas)
 
-## Telas
+## Capturas de Tela
 
 ### Principal
 
@@ -77,10 +79,6 @@ Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicion
 
 ![New](/assets/new2.png)
 Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
-
-## Rotas
-
-- Busca um usuário do GitHub
 
 ## Desenvolvimento
 
@@ -95,6 +93,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga a Execução de Projeto.
+
+## Utilizados no Projeto
 
 ### Bibliotecas
 
@@ -138,7 +138,17 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
 
-### Outras Ferramentas
+### APIs
+
+- **[GitHub](https://api.github.com)**
+
+  - **Rotas**
+
+    - Usuários
+
+      - Busca dados de um usuário do GitHub
+
+### Ferramentas
 
 - [Mapbox](https://github.com/osvaldokalvaitir/projects-settings/blob/master/map/mapbox.md)
 
