@@ -20,9 +20,9 @@ Neste desafio você vai construir uma aplicação utilizando a biblioteca Rea
 
 ### Utilize o seguinte layout na aplicação:
 
-![Listagem](/assets/listagem.png)
+![Listagem](/.github/assets/listagem.png)
 
-![New](/assets/new.png)
+![New](/.github/assets/new.png)
 
 Veja que na esquerda temos uma lista dos usuários cadastrados enquanto que no mapa temos os avatares do usuário indicando sua posição no mapa.
 
@@ -57,15 +57,15 @@ Usuário: http://api.github.com/users/diego3g
   - [Configuração do Ambiente](#configuração-do-ambiente)
 
   - [Instalação do Projeto](#instalação-do-projeto)
-  
+
   - [Configuração das Variáveis de Ambiente](#configuração-das-variáveis-de-ambiente)
-  
+
   - [Execução do Projeto](#execução-do-projeto)
 
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
-  
+
   - [APIs](#apis)
 
   - [Ferramentas](#ferramentas)
@@ -74,12 +74,12 @@ Usuário: http://api.github.com/users/diego3g
 
 ### Principal
 
-![Main](/assets/main.png)
+![Main](/.github/assets/main.png)
 Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicionado pelo usuário, podendo também, adicionar novos usuários ou remover algum usuário da lista lateral esquerda.
 
 ### Novo Usuário
 
-![New](/assets/new2.png)
+![New](/.github/assets/new2.png)
 Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
 
 ## Desenvolvimento
