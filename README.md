@@ -1,161 +1,67 @@
-# ReactJS - Desafio 3
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-desafio3/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-desafio3.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-desafio3.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-desafio3.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-desafio3.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-desafio3.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-desafio3.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  ReactJS - GoStack 4 Challenge 3
+</h3>
 
-Aplicação usando Redux, Redux-Saga, Ducks, React Router, react-map-gl, react-modal, react-toastify, Reactotron e Mapbox.
+<p align="center">
+  :pushpin: Application using Redux, Redux-Saga, Ducks, React Router, react-map-gl, react-modal, react-toastify, Mapbox, Reactotron and consuming the features of the GitHub API
+</p>
 
-## Desafio 3
+<p align="center">
+  :muscle: Click <a href="/.github/docs/challenge.md">here</a> to see the challenge description
+</p>
 
-Configure uma estrutura com create-react-app. Além disso, utilize as ferramentas ESLint, EditorConfig e Prettier durante o desenvolvimento desse projeto.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-gostack4-challenge3.svg?color=00A83A">
 
-Neste desafio você vai construir uma aplicação utilizando a biblioteca React Map GL da Uber. A aplicação se trata de um repositório de localização de desenvolvedores. O usuário poderá adicionar desenvolvedores ao mapa clicando sobre o mesmo e informando o username do Github do desenvolvedor, dessa forma, a aplicação irá captar os dados do dev via API e salvá-lo no estado do Redux.
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-gostack4-challenge3.svg?color=00A83A">
 
-### Utilize o seguinte layout na aplicação:
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-![Listagem](/.github/assets/listagem.png)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-![New](/.github/assets/new.png)
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-Veja que na esquerda temos uma lista dos usuários cadastrados enquanto que no mapa temos os avatares do usuário indicando sua posição no mapa.
+## :computer: Demo
 
-### Ponto de partida
+![Demo](/.github/assets/demo.gif)
 
-Para você se basear para utilização do mapa e controle do clique deixei um projeto para você utilizar como exemplo: https://github.com/Rocketseat/goreact-exemplo-mapbox. Nesse projeto utilizamos a biblioteca [MapBox](http://mapbox.com/) para renderizar o mapa, **talvez seja necessário você criar uma conta gratuita** para obter um **access token**.
+## :wrench: Install and run
 
-### Fluxo
+Open terminal:
 
-1. O usuário acessa a aplicação;
-2. O usuário clica sobre o mapa para adicionar um novo usuário à posição clicada;
-3. Um modal abre sobre a tela com um único campo, o username do Github;
-4. A aplicação busca informações como nome e avatar do usuário da API do Github e salva o usuário no store do Redux;
-5. O usuário adicionado agora aparece no mapa e na lista lateral;
-6. Caso o usuário digitado no input for inválido uma mensagem deve ser retornada, assim como se tudo ocorrer bem deve ser retornada uma mensagem de sucesso (você pode utilizar a lib https://github.com/fkhadra/react-toastify);
-7. Deve ser possível excluir usuários da listagem clicando sobre o “x” na sidebar;
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/reactjs-gostack4-challenge3
 
-### Exemplo de URL da API
+# Entry in folder
+cd reactjs-gostack4-challenge3
 
-Usuário: http://api.github.com/users/diego3g
+# Install deps with npm or yarn
+npm install | yarn
 
-## Índice
+# Make a copy of the .env.example file, rename it to .env and change the variables according to your environment.
 
-- [Capturas de Tela](#capturas-de-tela)
+# Launch the app with npm or yarn
+npm start | yarn start
+```
 
-  - [Principal](#principal)
+## :memo: License
 
-  - [Novo Usuário](#novo-usuário)
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-- [Desenvolvimento](#desenvolvimento)
+---
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
-
-  - [Instalação do Projeto](#instalação-do-projeto)
-
-  - [Configuração das Variáveis de Ambiente](#configuração-das-variáveis-de-ambiente)
-
-  - [Execução do Projeto](#execução-do-projeto)
-
-- [Utilizados no Projeto](#utilizados-no-projeto)
-
-  - [Bibliotecas](#bibliotecas)
-
-  - [APIs](#apis)
-
-  - [Ferramentas](#ferramentas)
-
-## Capturas de Tela
-
-### Principal
-
-![Main](/.github/assets/main.png)
-Nesta tela, encontra-se um mapa com todos os usuários do GitHub que foi adicionado pelo usuário, podendo também, adicionar novos usuários ou remover algum usuário da lista lateral esquerda.
-
-### Novo Usuário
-
-![New](/.github/assets/new2.png)
-Esta tela é responsável por adicionar um usuário que esteja cadastrado no GitHub, sendo obrigatório informar o nome para inserí-lo.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Configuração das Variáveis de Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/dotenv.md) e siga `Configuração de Variáveis de Ambiente`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto para Desenvolvimento` ou `Construção e Execução de Projeto para Produção`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
-
-- [dotenv](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/dotenv.md)
-
-- [Ducks](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/ducks.md)
-
-- [eslint-config-airbnb](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-config-airbnb.md)
-
-- [eslint-plugin-import](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-import.md)
-
-- [eslint-plugin-jsx-a11y](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-jsx-a11y.md)
-
-- [eslint-plugin-react](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/eslint-plugin-react.md)
-
-- [Font Awesome](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/font-awesome.md)
-
-- [prop-types](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/prop-types.md)
-
-- [React Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-redux.md)
-
-- [react-map-gl](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-map-gl.md)
-
-- [react-modal](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-modal.md)
-
-- [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
-
-- [react-toastify](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-toastify.md)
-
-- [reactotron-react-js](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-react-js.md)
-
-- [reactotron-redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux.md)
-
-- [reactotron-redux-saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/reactotron-redux-saga.md)
-
-- [Redux](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux.md)
-
-- [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
-
-### APIs
-
-- **[GitHub](https://api.github.com)**
-
-  - **Rotas**
-
-    - Usuários
-
-      - Busca dados de um usuário
-
-### Ferramentas
-
-- [Mapbox](https://github.com/osvaldokalvaitir/projects-settings/blob/master/map/mapbox.md)
-
-- [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
